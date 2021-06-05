@@ -1,4 +1,8 @@
-.intro {
+body {
+  font-family: Helvetica,;
+}
+
+.welcome {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -9,15 +13,31 @@
   width: 900px;
   height: 100px;
 }
+.intro {
+  text-align: center;
+}
 
-.photo1 {
-  border: 6px solid rgb(134, 51, 116);
-  width: fit-content;
-  height: 400px;
+.images-container {
+  display: flex;
+  justify-content: center;
+}
+
+.images-container img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+.left {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
-  display:block;
+  float:inline-end;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -27,17 +47,17 @@
   background-color: rgb(208, 214, 200); 
   padding: 40px;
   margin: 30px;
-  width: 800spx;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 
 .mycolor {
   color: rgb(92, 146, 92)
 }
-
+/* this is for image one, don't forget! */
 .box2 {
-  float:right;
+  float:inline-start;
   border: 5px solid rgb(134, 51, 116);
   background-color: rgb(208, 214, 200);
   padding: 40px;
