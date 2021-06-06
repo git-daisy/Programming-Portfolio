@@ -27,45 +27,51 @@ body {
   margin-right: 5px;
 }
 
-
-
-.left {
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.center {
-  float:inline-end;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .box1 {
+  display:inline-block;
   border: 5px solid rgb(134, 51, 116);
   background-color: rgb(208, 214, 200); 
   padding: 40px;
-  margin: 30px;
+  margin: 50px;
   width: 250px;
   height: 250px;
 }
 
-
 .mycolor {
-  color: rgb(92, 146, 92)
+  color: rgb(92, 146, 92);
 }
-/* this is for image one, don't forget! */
+
 .box2 {
-  float:inline-start;
+  display:inline-block;
   border: 5px solid rgb(134, 51, 116);
   background-color: rgb(208, 214, 200);
   padding: 40px;
-  margin: 30px;
+  margin: 40px;
+  width: 250px;
+  height: 250px;
+}
+
+.box3 {
+  display:inline-block;
+  border: 5px solid rgb(134, 51, 116);
+  background-color: rgb(208, 214, 200);
+  padding: 40px;
+  margin: 40px;
   width: 250px;
   height: 250px;
 }
 
 .blade {
   color: rgb(134, 51, 116)
+}
+
+.outrobox {
+  text-align: center;
+  list-style-position: inside;
+  border: 5px solid rgb(134, 51, 116);
+  background-color: rgb(208, 214, 200);
+  padding: 40px;
+  margin: 40px;
+  width: 1250px;
+  height: 250px;
 }
